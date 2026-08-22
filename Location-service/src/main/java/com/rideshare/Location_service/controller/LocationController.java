@@ -21,7 +21,7 @@ public class LocationController {
     @PostMapping("/driver/update")//----Driver phone call this every 3 sec----//
     public ResponseEntity<String> updateDriverLocation(@RequestBody DriverLocatinonRequest driverLocatinonRequest){
         locationService.updateDriverLocation(driverLocatinonRequest);
-        System.out.println("git testing");
+
         return ResponseEntity.ok("Driver Location Updatedd");
     }
 
