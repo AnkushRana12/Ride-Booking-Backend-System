@@ -23,6 +23,7 @@ public class LocationController {
         locationService.updateDriverLocation(driverLocatinonRequest);
         System.out.println("git testing");
                 System.out.println("git testing4");
+                System.out.println("git testing5");
         return ResponseEntity.ok("Driver Location Updatedd");
     }
 
