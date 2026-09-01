@@ -22,6 +22,7 @@ public class LocationController {
     public ResponseEntity<String> updateDriverLocation(@RequestBody DriverLocatinonRequest driverLocatinonRequest){
         locationService.updateDriverLocation(driverLocatinonRequest);
 
+        System.out.println("hello bhai");
         return ResponseEntity.ok("Driver Location Updatedd");
     }
 
